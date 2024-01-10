@@ -54,6 +54,7 @@ rows.forEach((row) => {
             summaryDiv.style.fontWeight = 'normal';
 
             summaryDiv.innerHTML = `
+	    	<div class="separator" style="border-top: 1px solid #d6d6d6; padding-top: 20px; margin: 0 14px; margin-top: 18px;"></div>
                 <span class="upgrade-levels-count">${upgradeCount} Upgrades</span><br>
                 <span class="total-cost ${costClass}"><img src="${imageSrc}" class="show-for-large"> ${formattedTotalCost}</span><br>
                 <span class="total-time">${formattedTotalTime}</span>
