@@ -10,9 +10,33 @@
 ## After:
 ![image](https://github.com/gitpro2005/ClashNinja-Calculate-total-upgrade-time-per-building/assets/80659357/dab52e19-e201-4633-8e3e-a61639a55581)
 
-.
 
-### More examples: 
+
+# How to use:
+
+- The script should be run on console, every time there is a new table
+- It can be turned into a bookmarklet for easy access (pro tip) [Bookmarklet Maker](https://caiorss.github.io/bookmarklet-maker/)
+
+## Work in progress
+
+You might have noticed that the project is incomplete
+
+Currently, it is a run-once script, which means you have to run it after the page is loaded.
+It just applies changes immediately as you run it. It doesn't work on background, and doesn't use EventListeners.
+It won't work on Tampermonkey, for example, as it won't do anything.
+In the future, the script will work as a User Script. For this, it would have to automatically detect tables and apply changes to it.
+
+
+## TO-DO:
+
+- Publish as a bookmarklet on github, or add the bookmarklet option directly on README.md, so you could drag it to favorites bar
+- Instead of having to run everytime a table appears, make it detect a new table and apply changes immediately
+- Make it detect where it was already added, and not add totals again
+- Rewrite the code/organize, making it more versatile and less redundant
+- Add tweaks, such as if it should add totals if there is only one building, using variables to enable/disable them
+
+
+## Screenshots: 
 
 ![image](https://github.com/gitpro2005/ClashNinja-Calculate-total-upgrade-time-per-building/assets/80659357/5470c036-d3f6-445a-ae59-2de71b3bb287)
 
@@ -21,4 +45,5 @@
 When there are too many upgrades, it might not help.
 
 ![image](https://github.com/gitpro2005/ClashNinja-Calculate-total-upgrade-time-per-building/assets/80659357/61b70964-007d-4438-bfea-a39740c9c4e2)
+
 
