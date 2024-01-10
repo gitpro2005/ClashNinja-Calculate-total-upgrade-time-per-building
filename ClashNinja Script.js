@@ -54,7 +54,6 @@ rows.forEach((row) => {
             summaryDiv.style.fontWeight = 'normal';
 
             summaryDiv.innerHTML = `
-	    	<div class="separator" style="border-top: 1px solid #d6d6d6; padding-top: 20px; margin: 0 14px; margin-top: 18px;"></div>
                 <span class="upgrade-levels-count">${upgradeCount} Upgrades</span><br>
                 <span class="total-cost ${costClass}"><img src="${imageSrc}" class="show-for-large"> ${formattedTotalCost}</span><br>
                 <span class="total-time">${formattedTotalTime}</span>
@@ -65,6 +64,22 @@ rows.forEach((row) => {
         }
     }
 });
+
+addStyles();
+
+function addStyles() {
+    const styleElement = document.createElement('style');
+    const cssRules = `
+		.upgrade-levels-summary {
+			margin-top: 10px;
+			background-color: #ffffff1c;
+			border-radius: 4px;
+			padding: 4px 0;
+		}
+    `;
+    styleElement.appendChild(document.createTextNode(cssRules));
+    document.head.appendChild(styleElement);
+}
 
 function formatTime(totalHours) {
     let totalMonths = Math.floor(totalHours / (24 * 30));
