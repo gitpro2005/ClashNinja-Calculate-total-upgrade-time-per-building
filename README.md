@@ -47,6 +47,10 @@ In the future, the script will work as a User Script, and possibly as an extensi
 
 ![image](https://github.com/gitpro2005/ClashNinja-Calculate-total-upgrade-time-per-building/assets/80659357/5470c036-d3f6-445a-ae59-2de71b3bb287)
 
+![image](https://github.com/gitpro2005/ClashNinja-Calculate-total-upgrade-time-per-building/assets/80659357/6a99f59c-5fb8-4c2f-a9da-372d619bfe7d)
+
+![image](https://github.com/gitpro2005/ClashNinja-Calculate-total-upgrade-time-per-building/assets/80659357/72549f7b-53f2-42a7-ac4d-63f6651811e6)
+
 ### *As you can see, the site already shows the total cost and time for the category, but not for each item:*
 
 When there are too many upgrades, it might not help.
