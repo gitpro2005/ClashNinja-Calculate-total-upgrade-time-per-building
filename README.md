@@ -29,7 +29,8 @@ You might have noticed that the project is incomplete
 Currently, it is a run-once script, which means you have to run it after the page is loaded.
 It just applies changes immediately as you run it. It doesn't work on background, and doesn't use EventListeners.
 It won't work on Tampermonkey, for example, as it won't do anything.
-In the future, the script will work as a User Script. For this, it would have to automatically detect tables and apply changes to it.
+In the future, the script will work as a User Script, and possibly as an extension. For this, it would have to automatically detect tables and apply changes to it.
+
 
 
 ## TO-DO:
@@ -39,9 +40,10 @@ In the future, the script will work as a User Script. For this, it would have to
 - Make it detect where it was already added, and not add totals again
 - Rewrite the code/organize, making it more versatile and less redundant
 - Add tweaks, such as if it should add totals if there is only one building, using variables to enable/disable them
+- Turn the script into a User Script, and later, into am extension
 
 
-## Screenshots: 
+# Screenshots: 
 
 ![image](https://github.com/gitpro2005/ClashNinja-Calculate-total-upgrade-time-per-building/assets/80659357/5470c036-d3f6-445a-ae59-2de71b3bb287)
 
